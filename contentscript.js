@@ -32,6 +32,7 @@ console.log('Reading progress indicator enabled');
   display.style.width = '140px';
   display.style.padding = '8px';
   display.style.position = 'fixed';
+  display.style.display = 'none';
   display.style.borderRadius = '4px';
   display.style.fontSize = '16px';
   display.style.top = '10px'; 
