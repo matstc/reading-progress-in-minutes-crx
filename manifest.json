@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Reading progress indicator in minutes",
-  "description": "Shows reading progress in minutes left at the top of the page",
+  "description": "Shows reading progress in minutes left at the bottom of the page",
   "version": "1.2",
   "content_scripts": [
      {
