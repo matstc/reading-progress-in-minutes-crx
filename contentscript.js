@@ -23,19 +23,17 @@ console.log('Reading progress indicator enabled');
     return self;
   };
 
-  var display = document.createElement('div');
+  display = document.createElement('div');
   display.style.backgroundColor = 'white';
   display.style.fontFamily = 'Ubuntu, Verdana, Sans-serif';
   display.style.opacity = '0.85';
   display.style.zIndex = 999;
-  display.style.border = '1px solid #ccc';
   display.style.width = '140px';
   display.style.padding = '8px';
   display.style.position = 'fixed';
   display.style.display = 'none';
   display.style.borderRadius = '4px';
-  display.style.fontSize = '16px';
-  display.style.top = '10px'; 
+  display.style.fontSize = '14px';
 
   var metric = document.createElement('span');
 
@@ -57,7 +55,8 @@ console.log('Reading progress indicator enabled');
   display.addEventListener('mouseout', timer.show);
 
   var redraw = function(){
-    display.style.left = window.innerWidth - 180 + 'px';
+    display.style.left = window.innerWidth - 175 + 'px';
+    display.style.top = window.innerHeight - 40 + 'px';
     var wordCount = document.body.innerText.split(" ").length;
     var wordsLeft = (1 - window.pageYOffset / document.body.scrollHeight) * wordCount;
     var minutesLeft = wordsLeft / 250;
