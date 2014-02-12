@@ -1,4 +1,4 @@
-This is a chrome extension that displays a reading progress indicator at the top of the page. It displays progress in "minutes left".
+This is a chrome extension that displays a reading progress indicator at the bottom of the page. It displays progress in "minutes left".
 
 # Install From Chrome Web Store
 See [reading progress indicator](https://chrome.google.com/webstore/detail/reading-progress-indicato/mongeccaepigledmakiemfglchiblhcm).
